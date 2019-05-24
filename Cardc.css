@@ -120,3 +120,73 @@ body
         left: 40%;
     }
 }
+.eas{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    background: transparent;
+    top: 100px;
+    left: 200px;
+}
+.egg{
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    background: transparent;
+}
+.egg:hover{
+    cursor: pointer;
+}
+.backgroundFlipPreview{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 1px;
+    right: 256px;
+    bottom: 0px;
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+    transform: translateX(-60px);
+    border: 2px solid white;
+    box-shadow: 0 0 10px black; 
+}
+.backgroundFlipHover:hover .backgroundFlipPreview{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.tiktokPreview{
+    position: absolute;
+    width: 170%;
+    right: 565px;
+    bottom: 0px;
+    top: 1px;
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+    transform: translateX(-50px);
+    box-shadow: 0 0 10px black; 
+    height: 170%;
+    
+}
+.tiktokHover:hover .tiktokPreview{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0px);
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+.previewTiktok{
+    width: 170%;
+    height: 170%;
+    position: absolute;
+    transform: rotateZ(50px);
+    z-index: 100;
+    box-shadow: 0 0 10px black;
+    opacity: 0.9;
+}
