@@ -54,7 +54,7 @@ nav ul li ul a
 {
     padding:10px;
 }
-@media (min-width: 500px) and (max-width: 900px){
+@media (min-width: 320px) and (max-width: 900px){
     .menu{
         z-index: 3; 
         right: 50px;
