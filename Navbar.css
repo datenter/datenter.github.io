@@ -54,15 +54,17 @@ nav ul li ul a
 {
     padding:10px;
 }
-@media (min-width: 320px) and (max-width: 900px){
+@media (min-width: 320px) and (max-width: 480px){
     .menu{
         z-index: 3; 
-        right: 50px;
+        right: 0px;
+        left:30px;
     }
     .box{
         top: 60px;
-        left: 50px;
+        left: 20px;
         margin-top:10px;
+        right: 0px;
         margin-bottom:20px;
     }
 }
